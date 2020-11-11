@@ -16,7 +16,9 @@ ydl_opts = {
         'preferredquality': '192',
     }],
     'quiet': False,
-    'restrictfilenames': False}
+    'restrictfilenames': False,
+    'force':'ipv4',
+    'ipv4':True}
 
 
 
