@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'mp3convert',
 ]
 
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
