@@ -20,7 +20,6 @@ ydl_opts = {
 
 
 
-
 @csrf_exempt
 def main(request):
     return TemplateResponse(request, 'main.html', {'entries': 'all'})
